@@ -17,7 +17,7 @@ st.title("Split Map")
 
 with st.expander("See source code"):
     with st.echo():
-        m = leafmap.Map(center=(22.6273, 120.3014), zoom=24, height="600px") 
+        m = leafmap.Map(center=(22.6273, 120.3014), zoom=25, height="600px") 
         m.split_map(
         left_layer="https://github.com/CcCid1213/1121/raw/refs/heads/main/ima.tif", 
         right_layer="https://github.com/CcCid1213/1121/raw/refs/heads/main/veg.tif"
